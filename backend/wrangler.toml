@@ -1,0 +1,22 @@
+name = "week-13"
+compatibility_date = "2024-07-27"
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNTI2NDA1ZmEtNWNkMC00YWI2LWEyZGQtNmNiZTE1Mzg4NjQ1IiwidGVuYW50X2lkIjoiMWI1YmQxZTVlNDY2OTUwZjI2N2IzNmMwZThhZjliMTJiMTM0OTUxMDk2NjgwOGRkOWNkMGRiMDcyNzQ1YjZmZiIsImludGVybmFsX3NlY3JldCI6IjY1NWExYjUyLTFjYjktNDQwZC1iNTllLTRiN2MzMzNlNjk4YiJ9.-UW88u8Ioz6GkgPRSjyzmHcEcZk97HY7BtDuvrVUKeg"
+JWT_SECRET="vineeth thungani"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
